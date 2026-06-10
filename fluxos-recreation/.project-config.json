@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://23LPDHNu52QcJHV.610f2d5f7eba:3tDtbe7369xP6EJGTfhi@gateway04.us-east-1.prod.aws.tidbcloud.com:4000/hPRevaSSYd2EfVyiW8XASG?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://23LPDHNu52QcJHV.610f2d5f7eba:3tDtbe7369xP6EJGTfhi@gateway04.us-east-1.prod.aws.tidbcloud.com:4000/hPRevaSSYd2EfVyiW8XASG?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310419663029999451/hPRevaSSYd2EfVyiW8XASG",
+    "access_key_id": "ASIAZV3A2ECZP7SXDGSO",
+    "secret_access_key": "y4SzantS2ttYRPd8xFmP5WYcs/7KugN0+26jfXvf",
+    "session_token": "IQoJb3JpZ2luX2VjEB4aCXVzLWVhc3QtMSJIMEYCIQC0p7ly5IWFtNHELhh4KTjJoSB6KqyUELMcIjgaDjCX3QIhAPdX0O1MWGlz1pyV0xL5SwFWnr5FofN90Fzs5algIt71Kv4DCOf//////////wEQBBoMNjY1Mzg2MDk4ODY2IgwfrK/ciIuFSfa+4Q0q0gOgizeZai6t6wLUdp8xESJM2bLkKXY/X1XxYh+da7Su3wDVXMsDqk+0FeXnScpyQF4HiRtroh3XyeEchglE6NtFFPpArSX3CRKfy9gXpDWc8uJtp5xixIM6Mp/dayNghSOiARXlLXfWA5+y4SPQxfG9lvvCsnhfXQ7GhrHTy3tv7weTF7WUX0SBSv/LYiMOWDu4r+Qh4W0GYHW894YsGhslL5WGi2iTqS7BwJqweADW8AKUrPaWNV2F6wxX3fDLlNq8uxG9AtBd1K3TS/mR7SCGDdW24FCiSFnlgjKBLknmGQq4Qh/GktbsR8/LLlLa5iO4aO6p9SDuofu1Nw3gWr/1psQwEvbdtzq5PWX8OP57Y4otNnx21Enke4fwPh4MXRi5QgKRlGNrhF6IcEBA7/7H2m3/lZ4fmw5dbulviq0qwtjnNdmdq19KKm0Jj3bq9uDk5ZKoAxsp49j3KzJnclQAOS2yJXnMohaHq2DEy45pSHbJcCDmTDT0yFMGyUOhySSZiBvt9EwPiWe9LYYLKlTAdyceoBg7A4VSZrQuwqtJjK79xx4fh+Sq0y655w4TKP0lB/Ht7KT7uKGn7/I1g9pt91StRXmc8o6hxfLv6BzkM/7LMOPVpdEGOpwBRRpwPd75r0Mdw63+HDYMcdsWiqGFYHiBVymA8PBZ8dnu38kTE6cTHF6zC5VnZ4ftNYabSHfnxNu0fXgsV4HSrf/SKnFmlNgh1rNWfTTxDoPB2GcGRC+aWiMl/JMPjMK7kNSNurkucKYpWC5IrypXLhq7xo7gn4+FYLQSAlNx6+MDqFbpwTmG8mIFSj9bDFzzwDYWqY3bh0kMBnop",
+    "expiration": "2026-06-11T01:47:15.000Z"
+  },
+  "name": "fluxos-recreation",
+  "path": "/home/ubuntu/fluxos-recreation",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "DgBMitDvdUt49PoESH35tx",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "4wdjYfWZ6EqyKrx9hQKySv",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "acerola rosa",
+    "OWNER_OPEN_ID": "jqhyMnMwcwpjYtZE73cdYi",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "653a2ede-b750-434e-8b17-e5d0389d46e2",
+    "VITE_APP_ID": "hPRevaSSYd2EfVyiW8XASG",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310419663029999451/GSKSCcnsRTiOTPRo.png",
+    "VITE_APP_TITLE": "FluxOS - Gestão de Ordens de Serviço",
+    "VITE_FRONTEND_FORGE_API_KEY": "ggx7iSpoGheXWgnc55QMeP",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
